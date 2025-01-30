@@ -1,0 +1,35 @@
+.p-datatable-thead tr th {
+    background-color: #F8F8F9 !important;
+    text-transform: uppercase !important;
+    border-bottom: 1px solid rgb(209 213 219) !important;
+}
+
+.p-datatable .p-sortable-column.p-highlight {
+    color: var(--text-kyc);
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+    background: none;
+    color: #000;
+}
+
+.p-datatable.p-datatable-selectable .p-datatable-tbody>tr.p-selectable-row:hover {
+    background: #f3f4f6;
+    color: #4b5563;
+}
+
+.p-sortable-column .p-sortable-column-icon {
+    display: none;
+}
+
+.p-column-title {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+    color: #14151A;
+}
+
+
+.p-paginator-current {
+    margin-right: auto;
+}
